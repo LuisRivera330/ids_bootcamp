@@ -1,4 +1,0 @@
-package java_core.java_core.java_core.chapter_01_java_building_blocks.d01.understanding_package_declarations_and_imports.creating_a_new_package.packagea;
-
-public class ClassA {
-}
