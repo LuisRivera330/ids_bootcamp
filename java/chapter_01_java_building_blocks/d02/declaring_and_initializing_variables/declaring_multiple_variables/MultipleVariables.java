@@ -5,12 +5,12 @@ public class MultipleVariables {
     //String s1, s2;
     String s3 = "yes", s4 = "no";
 
-    //int i1, i2, i3 = 0; //Se declaran 3 y se inicializa 1 (i3)
+    //int i1, i2, i3 = 0; //Se declaran 3 y se inicializa 1 (i3) porque el igual solo se encuentra al final
 
     //int num, String value; //No compila porque, no son del mismo tipo de variable
 
-    boolean b1, b2; //Válido son del mismo tipo
-    String s1 = "1", s2; //Válido son del mismo tipo
+    boolean b1, b2; //Válido porque son del mismo tipo
+    String s1 = "1", s2; //Válido porque son del mismo tipo
     //double d1, double d2; //No válido porque no hay necesidad de especificar nuevamente el tipo de variable
     //int i1; int i2; //Válido porque hay un ; "Las instrucciones se separan por ";""
     //int i3; i4; //No válido porque no especifica el tipo de variable
@@ -18,6 +18,6 @@ public class MultipleVariables {
     int i1;
     int i2;
     int i3;
-    //i4;// NO COMPILA
+    //i4;// NO COMPILA porque no se declara que tipo de datos es
 
 }

@@ -2,10 +2,6 @@ package ids_bootcamp.java.chapter_01_java_building_blocks.d02.destroying_objects
 
 public class Scope {
     public static void main(String[] args) {
-        //LLava propociona el siguiente método para la recolección de basura
-        //No porque se ejecute el siguiente comando va recolectar la basura
-        //Solo brinda una sugerencia
-        //System.gc();
         //Se declara la variable one and two
         String one, two;
         //one inicializa su valor con "a"
@@ -19,5 +15,9 @@ public class Scope {
         //Se declara a one como nulo
         //"a" sea elegible para recolección de basura
         one = null;
+        //Java propociona el siguiente método para la recolección de basura
+        //No porque se ejecute el siguiente comando va recolectar la basura
+        //Solo brinda una sugerencia
+        //System.gc();
     }
 }

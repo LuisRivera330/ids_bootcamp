@@ -8,7 +8,7 @@ public class Animal {
 }
 
 //Se crea una clase llamada Animal2
-//Java no exige que sea una clase pública
+//Java nos exige que sea una clase pública
 class Animal2{
 
 }

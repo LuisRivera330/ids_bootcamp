@@ -13,8 +13,8 @@ public class LocalVariables {
         int y = 10;
         int x; //La variable x se declara
         x = 3; //Se inicializa con un valor 3
-        int reply = x + y; //se realiza la operación
-        return reply; //Resultado: 13
+        int reply = x + y; //se realiza la operación porque ambos son del mismo tipo
+        return reply; //Resultado: 13. Lo devuelve en una variable de tipo int
     }
 
     //El siguiente ejemplo no es válido porque puede que onlyBranch no inicialice

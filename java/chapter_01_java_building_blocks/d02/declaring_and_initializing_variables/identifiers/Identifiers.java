@@ -18,6 +18,6 @@ public class Identifiers {
     int *$coffee; // Los identificadores no pueden comenzar con un *.
     int public; // public es palabra reservada
 
-    String Thisismyclass; // No cumple el formato para escribir una variable
-    String thisIsMyClass; // Cumple el formato*/
+    String Thisismyclass; // No cumple el formato para escribir una variable porque lo ideal es comenzar con minúscula y luego formato camelCase
+    String thisIsMyClass; // Cumple el formato porque inicia con minúscula y luego el formato camelCase*/
 }

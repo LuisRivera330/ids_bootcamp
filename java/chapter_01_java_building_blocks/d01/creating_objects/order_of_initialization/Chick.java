@@ -19,5 +19,9 @@ public static void main(String[] args) {
         Chick chick = new Chick();
         //Se imprime el atributo name
         System.out.println(chick.name);
+        //La impresión sería de la siguiente manera:
+        //setting field
+        //setting constructor
+        //Tiny
     }
 }

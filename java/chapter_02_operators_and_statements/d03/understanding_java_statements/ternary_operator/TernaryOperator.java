@@ -25,7 +25,7 @@ public class TernaryOperator {
         final int x = y<10 ? y++ : z++;
         System.out.println(y+","+z); // Resultado 2,1*/
 
-        //En este caso la segunda condición se cumple
+        //En este caso la segunda condición se cumple, es decir y es menor o igual que 10
         int y = 1;
         int z = 1;
         final int x = y>=10 ? y++ : z++;

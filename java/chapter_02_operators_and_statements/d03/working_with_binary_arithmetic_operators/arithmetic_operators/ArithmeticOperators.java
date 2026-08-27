@@ -6,7 +6,7 @@ public class ArithmeticOperators {
         //int x = 10 + 12 - 8; la expresión se reduce a lo siguiente
         System.out.println(x); //Resultado 14
 
-        int y = 2 * ((5 + 3) * 4 - 8); //Se resuelve lo primero que está en paréntesis
+        int y = 2 * ((5 + 3) * 4 - 8); //Se resuelve lo primero que está en paréntesis porque es el orden de operador de precendencia
         //int y = 2 * (8 * 4 - 8); la expresión se reduce a lo siguiente
         //int x = 2 * (32 – 8);
         //int x = 2 * 24;

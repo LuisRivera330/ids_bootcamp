@@ -34,7 +34,7 @@ public class TheIfThenElseStatement {
 
         //El siguiente código no compila porque no se evalua como una expresión booleana
         /*int x = 1;
-        if(x = 5) { // No compila
+        if(x = 5) { //
             //...
         }*/
     }

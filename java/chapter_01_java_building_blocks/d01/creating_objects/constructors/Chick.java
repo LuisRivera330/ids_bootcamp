@@ -8,7 +8,8 @@ public class Chick {
     int numEggs = 0;
     String name;
 
-    //Constructor
+    //Se crea un Constructor. es un tipo especial de método que crea un nuevo objeto
+    //El nombre del constructor coincide con el nombre de la clase y no tiene tipo de retorno
     public Chick(){
         name = "Duke";// El atributo se inicializa en el constructor
     }
