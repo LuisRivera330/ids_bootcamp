@@ -14,13 +14,13 @@ public class NumericPromotion {
 
         short n = 10;
         short m = 3;
-        int d = n / m; //Al ser tipo de datos pequeños el resultado se vuelve en int
+        int d = n / m; //Al ser tipo de datos muy pequeños el resultado se vuelve en int
         System.out.println(d);*/
 
         short x = 14; //Se convertirá automaticamente en int porque short es muy pequeño
         float y = 13; // El subresultado será de tipo float
         double z = 30; // El resultado será de tipo double porque es más grande
-        double t = x * y / z;
+        double t = x * y / z; //Se asgina el valor a una variable de tipo double
         System.out.println(t); //Imprime  6.066666666666666
     }
 }

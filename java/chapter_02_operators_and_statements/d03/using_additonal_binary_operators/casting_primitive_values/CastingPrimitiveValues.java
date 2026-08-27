@@ -16,6 +16,6 @@ public class CastingPrimitiveValues {
         short x2 = 10;
         short y2 = 3;
         short z2 = (short) (x2 * y2); // A pesar que el resultado no puede caber en un tipo de dato short. Lo forzamos
-        System.out.println(z2);
+        System.out.println(z2); //Resulado 30
     }
 }

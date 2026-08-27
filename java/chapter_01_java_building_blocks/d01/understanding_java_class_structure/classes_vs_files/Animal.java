@@ -2,6 +2,7 @@ package ids_bootcamp.java.chapter_01_java_building_blocks.d01.understanding_java
 
 //La clase muchas veces está definida por el mismo nombre de archivo
 //Generalmente una clase es pública
+//Solo se puede tener una clase de tipo pública por cada archivo
 public class Animal {
     private String name;
 }

@@ -6,6 +6,6 @@ public class Swan {
         //Se crea un objeto de tipo Swan
         Swan mother = new Swan();
         mother.numberEggs = 1; // Se setea el atributo numberEgg a 1
-        System.out.println(mother.numberEggs); // Se lee el valor de la variable
+        System.out.println(mother.numberEggs); // Se imprime el valor de la variable
     }
 }

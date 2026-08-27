@@ -9,7 +9,7 @@ public class CompoundAssignmentOperators {
         long x2 = 10;
         int y = 5;
         //y = y * x2; // No compila porque el tipo de dato debe ser long
-        System.out.println(y *= x2);
+        System.out.println(y *= x2); //Resultado 50
 
         //Primero asigna el valor 3 a x3. Luego ese valor de asignación de x3 lo pasa a y3
         long x3 = 5;

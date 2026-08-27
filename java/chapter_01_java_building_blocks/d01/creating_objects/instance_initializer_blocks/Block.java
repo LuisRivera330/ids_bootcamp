@@ -2,7 +2,8 @@ package ids_bootcamp.java.chapter_01_java_building_blocks.d01.creating_objects.i
 
 public class Block {
     public static void main(String[] args) {
-        //Cuando esta entre llave se llama "bloque de código"
+        //Cuando esta entre llaves {} se llama "bloque de código"
+        //En este ejemplo hay 3 bloques de código
         {
             System.out.println("Feathers");
         }

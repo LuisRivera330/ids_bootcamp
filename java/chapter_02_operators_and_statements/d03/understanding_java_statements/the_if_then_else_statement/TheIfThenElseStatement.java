@@ -1,4 +1,4 @@
-package java_core.java_core.java_core.chapter_02_operators_and_statements.d03.understanding_java_statements.the_if_then_else_statement;
+package ids_bootcamp.java.chapter_02_operators_and_statements.d03.understanding_java_statements.the_if_then_else_statement;
 
 public class TheIfThenElseStatement {
     public static void main(String[] args) {

@@ -12,6 +12,8 @@ public class ArithmeticOperators {
         //int x = 2 * 24;
         System.out.println(y); //Resultado 48
 
+        //Realiza una división con resultado entero. Puede que quede residuo pero no se considera
+        //El % nos indica el residuo que quedó
         System.out.println(9 / 3); // Resultado 3
         System.out.println(9 % 3); // Resultado 0
 

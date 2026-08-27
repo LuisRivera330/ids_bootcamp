@@ -18,6 +18,7 @@ public class CompileTimeConstantValues {
         }*/
 
         //Se debe colocar siempre la instrucción de break después de cada case
+        //Sino continuará con el siguiente case, es decir seguirá en evaluación
         //Resultado: Weekday y Saturday
         /*int dayOfWeek = 5;
         switch(dayOfWeek) {
@@ -30,30 +31,32 @@ public class CompileTimeConstantValues {
                 break;
         }*/
 
+        //Los valores en cada instrucción case deben ser constantes en tiempo de compilación
+        // del mismo tipo de datos que el valor de switch
         //La condición "firstName" no necesita ser final. Pero el caso de los cases deben ser una constante de compilación valida
         /*private int getSortOrder( String firstName, final String lastName) {
             String middleName = "Patricia";
             final String suffix = "JR";
             int id = 0;
             switch(firstName) {
-                case "Test":
+                case "Test": //Compila sin problemas utiliza una cadena fija. Return también lo podemos uitlizar para salir de la instrucción
                     return 52;
-                case middleName: // DOES NOT COMPILE
+                case middleName: // No compila porque no es una variable final
                     id = 5;
                     break;
-                case suffix:
+                case suffix: //Compila con normalidad porque es una variable con la instrucción final
                     id = 0;
                     break;
-                case lastName: // DOES NOT COMPILE
+                case lastName: // No compila ya que a pesar de ser final no se define su valor
                     id = 8;
                     break;
-                case 5: // DOES NOT COMPILE
+                case 5: // No compila porque no es dato de tipo String
                     id = 7;
                     break;
-                case 'J': // DOES NOT COMPILE
+                case 'J': // No compila porque no es dato de tipo String
                     id = 10;
                     break;
-                case java.time.DayOfWeek.SUNDAY: // No compila
+                case java.time.DayOfWeek.SUNDAY: // No compila porque no es dato de tipo String
                     id=15;
                     break;
             }

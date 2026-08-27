@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Finalizer {
 
+    //Java permite que los objetos implementen un método llamado `finalize()`
     /*protected void finalize(){
         System.out.println("Calling Finalize");
     }

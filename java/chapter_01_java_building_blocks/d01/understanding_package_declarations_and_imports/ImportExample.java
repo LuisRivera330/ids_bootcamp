@@ -5,7 +5,7 @@ import java.util.Random; // La palabra import como su mismo nombre lo indica nos
 public class ImportExample {
     public static void main(String[] args) {
         //Se inicializa una variable de tipo Random
-        //Para ello hace el utiliza import
+        //Para ello se utiliza import
         Random r = new Random();
 
         System.out.println(r.nextInt(10)); //Resultado: Números entre 0 y 9

@@ -19,7 +19,7 @@ public class LogicalComplementAndNegationOperators {
         System.out.println(x2); //Resultado: 1.21
 
         /*int x3 = !5; // No compila porque no se puede realizar una inversión de un dato número
-        boolean y = -true; // No compila porque no se puede negar un boolean
-        boolean z = !0; // No compila porque no se puede negar un dato número para una variable de tipo boolean*/
+        boolean y = -true; // No compila porque no se puede colocar un "-" a un boolean
+        boolean z = !0; // No compila porque no se puede negar un dato numérico para una variable de tipo boolean*/
     }
 }

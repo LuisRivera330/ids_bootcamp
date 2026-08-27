@@ -24,6 +24,6 @@ public class Comments {
     /* elephant */  //--> Comentario de múltiples líneas
 
     /*
-     * /* ferret */ //--> Hay un error de copilación porque se usa doble */
+     * /* ferret */ //--> Hay un error de compilación porque se usa doble */
     //*/
 }

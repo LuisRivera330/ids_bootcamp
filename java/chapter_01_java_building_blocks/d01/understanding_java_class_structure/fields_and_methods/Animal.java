@@ -14,6 +14,7 @@ public class Animal {
 
     //Se crea el método setName()
     //Tiene como parámetro de entrada una variable de tipo String
+    //Al ser void no retorna nada
     public void setName(String name) {
         this.name = name;
     }

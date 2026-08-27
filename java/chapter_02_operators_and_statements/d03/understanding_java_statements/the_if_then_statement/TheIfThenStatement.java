@@ -9,6 +9,7 @@ public class TheIfThenStatement {
         if(hourOfDay < 11)
             System.out.println("Good Morning");
         //En este segundo if se aumenta el valor de morningGreetingCount en una unidad
+        //Sin embargo, hay una manera más optimizada
         if(hourOfDay < 11){
             System.out.println("Good Morning");
             morningGreetingCount++;

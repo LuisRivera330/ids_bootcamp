@@ -6,6 +6,7 @@ public class Identifiers {
     //Los siguientes caracteres pueden ser númericos
     //No se puede colocar una palabra reservada
     //Java distingue entre mayúscula y mínúsculas por lo que se pueden ser distintos dos variables
+    //Variables válidas
     //int okidentifier;
     //int $OK2Identifier;
     //int _alsoOK1d3ntifi3r;

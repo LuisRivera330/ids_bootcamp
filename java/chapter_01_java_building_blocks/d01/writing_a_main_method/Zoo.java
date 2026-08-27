@@ -8,5 +8,7 @@ public class Zoo {
         System.out.println(args[0]);
         //Accede al segundo elemento del Array.
         System.out.println(args[1]);
+        //javac Zoo.java -- compila el archivo a javac Zoo.class
+        //java Zoo ejecuta el programa
     }
 }
