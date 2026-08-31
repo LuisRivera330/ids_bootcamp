@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.working_with_varargs;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.working_with_varargs;
 
 public class WorkingWithVarargs {
     //vararg -- argumento variable

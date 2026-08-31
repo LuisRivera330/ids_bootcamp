@@ -1,6 +1,6 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.applying_access_modifiers.calling_a_static_variable_or_method;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.applying_access_modifiers.calling_a_static_variable_or_method;
 
-import ids_bootcamp.java.chapter_04_methods_and_encapsulation.applying_access_modifiers.designing_static_methods_and_fields.Koala;
+import ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.applying_access_modifiers.designing_static_methods_and_fields.Koala;
 
 public class CallingAStaticVariableOrMethod {
     //Para acceder a un miembro estático basta con anteponer el nombre de la clase al método o variable

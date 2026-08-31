@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.designing_methods.parameter_list;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.designing_methods.parameter_list;
 
 public class ParameterList {
 

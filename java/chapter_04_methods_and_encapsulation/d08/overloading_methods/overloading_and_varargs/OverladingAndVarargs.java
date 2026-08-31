@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.overloading_methods.overloading_and_varargs;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.overloading_methods.overloading_and_varargs;
 
 public class OverladingAndVarargs {
     //public void fly(int[] lengths) { }

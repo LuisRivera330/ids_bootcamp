@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.passing_data_among_methods;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.passing_data_among_methods;
 
 public class ReturningValues {
     public static void main(String[] args) {

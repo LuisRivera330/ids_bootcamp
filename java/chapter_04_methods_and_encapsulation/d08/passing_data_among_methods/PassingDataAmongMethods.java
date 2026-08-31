@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.passing_data_among_methods;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.passing_data_among_methods;
 
 public class PassingDataAmongMethods {
     //Java es un lenguaje de paso por valor. Esto quiero decir que se crea una copia de la variable y el método recibe esa copia

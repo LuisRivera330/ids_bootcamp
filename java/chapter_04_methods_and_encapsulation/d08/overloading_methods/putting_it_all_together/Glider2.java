@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.overloading_methods.putting_it_all_together;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.overloading_methods.putting_it_all_together;
 
 public class Glider2 {
     //Resultado final: 142

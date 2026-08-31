@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.designing_methods.optonal_exception_list;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.designing_methods.optonal_exception_list;
 
 public class OptionalExceptionList {
 

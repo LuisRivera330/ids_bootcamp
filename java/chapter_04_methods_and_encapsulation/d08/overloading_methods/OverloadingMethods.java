@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_04_methods_and_encapsulation.overloading_methods;
+package ids_bootcamp.java.chapter_04_methods_and_encapsulation.d08.overloading_methods;
 
 public class OverloadingMethods {
     //Los siguiente métodos a pesar de tener el mismo nombre son compatibles porque, tienen diferentes tipos de parámetros
