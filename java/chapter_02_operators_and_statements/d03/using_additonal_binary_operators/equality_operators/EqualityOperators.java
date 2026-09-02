@@ -6,8 +6,8 @@ public class EqualityOperators {
     public static void main(String[] args) {
         //No compilan los siguientes ejemplos porque son de diferentes tipos de datos
         /*boolean x = true == 3; // No compila, se compara un true con 3
-        boolean y = false != "Giraffe"; // No compila se compra un booleano con un string
-        boolean z = 3 == "Kangaroo"; // No compila se compra un int con un string*/
+        boolean y = false != "Giraffe"; // No compila se compara un booleano con un string
+        boolean z = 3 == "Kangaroo"; // No compila se compara un int con un string*/
 
         boolean y = false;
         boolean x = (y == true);
