@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_05_class_design.d11_creating_abstract_classes.abstract_methods_and_multiple_inheritance;
+package ids_bootcamp.java.chapter_05_class_design.d11.implementing_interfaces.abstract_methods_and_multiple_inheritance;
 
 //Similiar al caso de la interfaz Supervore.
 //Solo que ahora se trata de una interfaz abstracta

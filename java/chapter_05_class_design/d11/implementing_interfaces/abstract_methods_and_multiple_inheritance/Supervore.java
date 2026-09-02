@@ -1,4 +1,4 @@
-package ids_bootcamp.java.chapter_05_class_design.d11_creating_abstract_classes.abstract_methods_and_multiple_inheritance;
+package ids_bootcamp.java.chapter_05_class_design.d11.implementing_interfaces.abstract_methods_and_multiple_inheritance;
 
 //Genera un error de compilación ya que, en la interfaz Herbivore
 //y Omnivore se creó el método int eatPlants() y void eatPlants()

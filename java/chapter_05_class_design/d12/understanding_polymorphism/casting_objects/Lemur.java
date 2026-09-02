@@ -1,7 +1,9 @@
-package ids_bootcamp.java.chapter_05_class_design.d12.understanding_polymorphism;
+package ids_bootcamp.java.chapter_05_class_design.d12.understanding_polymorphism.casting_objects;
+
+import ids_bootcamp.java.chapter_05_class_design.d12.understanding_polymorphism.HasTail;
 
 //Se crea la clase Lemur que hereda de Primate e implementa de HasTail
-public class Lemur extends Primate implements HasTail{
+public class Lemur extends Primate implements ids_bootcamp.java.chapter_05_class_design.d12.understanding_polymorphism.HasTail {
     //Se sobreescribe el método isTailStriped. Se retorna un valor false
     public boolean isTailStriped(){
         return false;
@@ -34,5 +36,11 @@ public class Lemur extends Primate implements HasTail{
         //En este caso isTailStriped no se encuentra implementado en Primate
         Primate primate = lemur;
         //System.out.println(primate.isTailStriped());
+        //Lemur lemur2 = primate; //No compila porque estamos intentando convertir la referencia Primate nuevamente a Lemur
+        //Para solucionar ello, se debe de castear como el caso de abajo,
+
+        //Imprime con normalidad
+        Lemur lemur3 = (Lemur)primate;
+        System.out.println(lemur3.age);
     }
 }

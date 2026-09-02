@@ -1,7 +1,7 @@
-package ids_bootcamp.java.chapter_05_class_design.d11_creating_abstract_classes.abstract_methods_and_multiple_inheritance;
+package ids_bootcamp.java.chapter_05_class_design.d11.implementing_interfaces.abstract_methods_and_multiple_inheritance;
 
 //La clase Bear implementa de las interfaces Herbivore y Omnivore
-public class Bear implements Herbivore, Omnivore{
+//public class Bear implements Herbivore, Omnivore{
 
     //Se implementa el método eatPlants() tanto de la interfaz
     //Herbivore y Omnivore, ya que ambos tienen la firma firma.
@@ -9,7 +9,7 @@ public class Bear implements Herbivore, Omnivore{
         System.out.println("Eating meat");
     }*/
     //Se implementa el método eatMeat() de la interfaz Omnivore
-    public void eatMeat() {
+    /*public void eatMeat() {
         System.out.println("Eating plants");
     }
 
@@ -18,7 +18,7 @@ public class Bear implements Herbivore, Omnivore{
     //del método eatPlants() de Omnivore
     public int eatPlants(int quantity) {
         return 0;
-    }
+    }*/
 
     //Ambos métodos no compilan porque la firma del método es igual.
     //A pesar de que retornan diferentes valores
@@ -30,4 +30,4 @@ public class Bear implements Herbivore, Omnivore{
     public void eatPlants(){
         System.out.println("Eating plans");
     }*/
-}
+//}
