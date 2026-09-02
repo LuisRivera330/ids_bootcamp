@@ -14,5 +14,5 @@ public class Chick {
         name = "Duke";// El atributo se inicializa en el constructor
     }
 
-    //public void Chick(){} No es constructor
+    //public void Chick(){} No es constructor porque, a pesar de no retornar nada se escribe explicitamente void
 }

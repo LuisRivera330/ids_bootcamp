@@ -13,11 +13,11 @@ public class MultipleVariables {
     String s1 = "1", s2; //Válido porque son del mismo tipo
     //double d1, double d2; //No válido porque no hay necesidad de especificar nuevamente el tipo de variable
     //int i1; int i2; //Válido porque hay un ; "Las instrucciones se separan por ";""
-    //int i3; i4; //No válido porque no especifica el tipo de variable
+    //int i3; i4; //No válido porque no especifica el tipo de variable en i4
 
     int i1;
     int i2;
     int i3;
-    //i4;// NO COMPILA porque no se declara que tipo de datos es
+    //i4;// No compila porque no se declara que tipo de datos es
 
 }

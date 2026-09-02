@@ -10,5 +10,5 @@ public class Block {
     }{
         System.out.println("Snowy");
     }
-    //Resultado: Feathers
+    //Se imprime Feathers porque está dentro del método main
 }
