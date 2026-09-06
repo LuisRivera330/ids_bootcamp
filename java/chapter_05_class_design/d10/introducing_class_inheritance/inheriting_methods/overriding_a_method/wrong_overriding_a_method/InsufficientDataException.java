@@ -1,0 +1,4 @@
+package ids_bootcamp.java.chapter_05_class_design.d10.introducing_class_inheritance.inheriting_methods.overriding_a_method.wrong_overriding_a_method;
+
+//Exception es una superclase de InsufficientDataException
+public class InsufficientDataException extends Exception {}
